@@ -1,0 +1,131 @@
+:root {
+  --licorice: #19100A;
+  --chamoisee: hsl(18, 26%, 47%);
+  --dark-blue: #2C3E50;
+  --eggplant: #54384B;
+  --chinese-violet: #7C5969;
+}
+
+/* Global styles */
+body {
+  background-color: #2C3E50;  
+  color: #382130;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.navbar-collapse {
+  background: transparent; /* Adjust the opacity as needed */
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-nav .nav-item .nav-link,
+.navbar-toggler-icon {
+  color: rgb(255, 255, 255) !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:focus {
+  color: var(--chamoisee) !important;
+}
+/* App.css */
+.search-bar {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Single underline */
+  background-color: transparent; /* Transparent background */
+  color: white;
+}
+
+.search-bar:focus {
+  outline: none; /* Remove outline on focus */
+}
+
+/* Transparent background and single underline for the search button */
+.btn-outline-success {
+  color: white !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border-bottom: 1px solid white !important;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus {
+  background-color: transparent !important;
+  border-bottom-color: transparent !important;
+}
+/* Single underline for the search bar */
+/* Search bar styling */
+.form-control.search {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  color: white;
+  outline: none; /* Remove outline on focus */
+  width: 150px; /* Adjust width as needed */
+  text-align: right; /* Align text to right */
+  font-weight: bold; /* Make text bold */
+}
+
+/* Adjust the search button to be white */
+.btn-outline-success {
+  color: white !important;
+  border-color: white !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border-bottom-color: white !important;
+}
+
+.card {
+  background-color: #6e7ebd !important;
+  color: white !important;
+}
+
+.card-title,
+.card-text {
+  color: white !important;
+}
+
+.card .btn-primary {
+  background-color: #2C3E50 !important;
+  border-color: #2C3E50 !important;
+}
+
+.card .btn-secondary {
+  background-color: #7C5969 !important;
+  border-color: #7C5969 !important;
+}
+
+.card .btn-primary:hover,
+.card .btn-primary:focus,
+.card .btn-secondary:hover,
+.card .btn-secondary:focus {
+  opacity: 0.8;
+}
+
+.modal-content {
+  background-color: #19100A !important;
+  color: white !important;
+}
+
+.footer {
+  background-color: #2C3E50;
+  color: white;
+  padding: 0.25rem 0; /* Reduced padding */
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:focus {
+  color: #7C5969;
+}
+
