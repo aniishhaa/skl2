@@ -16,21 +16,18 @@ function App() {
       title: "No Longer Human",
       author: "Osamu Dazai",
       price: "$10",
-      description: "This is a brief description of No Longer Human.",
-      cover: "NH.jpg"
+         cover: "NH.jpg"
     },
     {
       title: "Six Of Crows",
       author: "Leigh Bardugo",
       price: "$12",
-      description: "This is a brief description of Six Of Crows.",
       cover: "SC.jpg"
     },
     {
       title: "Single On Purpose",
       author: "John Kim",
       price: "$15",
-      description: "This is a brief description of Single On Purpose.",
       cover: "SP.jpg"
     }
   ];
